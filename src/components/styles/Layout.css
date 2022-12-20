@@ -1,0 +1,228 @@
+.ContentBody{
+
+    display: flex;
+    width: 100%;
+
+}
+.sidebar{
+
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+    width: 40%;
+    border-right: 1px solid black;
+    
+}
+.seatdetails{
+  margin: 40px;
+
+}
+
+.seatdetails .pd{
+  height: 300px;
+  cursor: pointer;
+  padding: 60px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.graph{
+  text-align: center;
+  justify-content: center;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.content{
+  overflow-x: hidden;
+  overflow-y: auto;
+  -ms-overflow-style: none;
+    width: 80%;
+}
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.flex{
+  align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputF{
+    border: none;
+    outline: none;
+  }
+
+  .searchResultD{
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    grid-template-columns: auto auto auto auto auto;
+  }
+  .searchResultM{
+    display: grid;
+    gap: 10px;
+    margin: 10px;
+    grid-template-columns: auto auto;
+  }
+
+  .seatDiv{
+    padding: 10px;
+
+    text-align: center;
+    height: 100px;
+  }
+.searchBox{
+  padding: 15px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchBtn{
+  cursor: pointer;
+  width: 190px;
+  color: white;
+  font-size: 22px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: green;
+  border-radius: 12px;
+}
+
+.searchResult{
+  display: grid;
+  gap: 15px;
+  
+  margin: 15px;
+ 
+  grid-template-columns: auto auto;
+}
+.seatItem{
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  
+}
+.seatItem li{
+ justify-content: start;
+}
+  .addS{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .stdDiv{
+    margin-bottom: 5px;
+    padding-left: 20px;
+    justify-content: start;
+    background-color: white;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    cursor: pointer;
+  }
+.popup-close{
+  color: red;
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 10px;
+ border: 1px solid red;
+ cursor: pointer;
+}
+  .select{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    border: none;
+    width: 290px;
+    padding: 10px;
+     background-color: white;
+     box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    
+  }
+
+  option{
+    height: 40px;
+  }
+
+  .date{
+    background-color: white;
+    box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+font-size: 20px;
+padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    width: 300px;
+    height: 50px;
+  }
+ 
+
+  .main{
+    background-color: rgba(190, 218, 236, 0.71);
+    height: 100%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+}
+input{
+margin: 0;
+}
+.popupBody{
+  text-align: center;
+}
+.popupSubmit{
+  text-align: center;
+}
+.popupSubmit input{
+  border-radius: 8px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  background-color: green;
+}
+.form{
+
+  overflow: auto;
+}
+  .popup{
+    height: 400px;
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+.popup-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 15px;
+    border-bottom: 2px solid black;
+}
+
+.bookingSection{
+  bottom: 0;
+  position: fixed;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  font-size: 20px;
+  padding: 5px;
+  height: 50px;
+}
