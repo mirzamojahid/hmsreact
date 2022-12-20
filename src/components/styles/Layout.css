@@ -40,6 +40,39 @@
     width: 80%;
 }
 
+@media  screen and (max-width: 770px) {
+
+.content{
+  width: 100%;
+}
+
+.bookingSection{
+  margin: 0;
+  width: 100%;
+}
+
+.searchBox{
+  width: 100px;
+}
+.searchBox div{
+  width: 33%;
+}
+
+.searchBox div input{
+  width: 90%;
+}
+  .ContentBody{
+    display: block;
+  }
+  .searchBox{
+    width: 100%;
+  }
+  .sidebar{
+    width: 100%;
+    border-right: none;
+  }
+}
+
 *{
   -ms-overflow-style: none;
 }

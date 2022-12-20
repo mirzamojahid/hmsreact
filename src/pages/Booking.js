@@ -45,7 +45,7 @@ const [selectedData,setSelectedData] =useState({"name":"","student_id":"","id":"
   }).then((datax)=>{
      
   if(datax.message){
-    return alert("Not valid data insert"+datax.errors)
+    return alert("Message: "+datax.message)
 
   }else{
     return navigate("/");

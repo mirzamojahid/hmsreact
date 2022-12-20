@@ -24,28 +24,28 @@ export default function Navbar(props) {
 
   
   return (
-    <div style={{height:"60"}}>
+  
       <nav >
          <img onClick={()=>{
           return navigate("/")
          }} src={logo} alt="logo" width={160} style={{marginLeft:"10px",color:"blue",cursor:"pointer"}}  />
          <div style={{display:"flex",alignItems: "center"}} >
-         <ul  style={{display:"flex"}} >
+         <ul  className='navBtn'  style={{display:"flex"}} >
      
-         <li onClick={()=>{
+         <li className='navBtn'  onClick={()=>{
              navigate("/");
           }}>Home</li>
     
-            <li  onClick={()=>{
+            <li className='navBtn'  onClick={()=>{
              navigate("/hallfacilities");
           }}>Hall Facilities</li>
-            <li  onClick={()=>{
+            <li className='navBtn'  onClick={()=>{
              navigate("/roomfacilities");
           }} >In-room Facilities</li>
-            <li  onClick={()=>{
+            <li className='navBtn'   onClick={()=>{
              navigate("/contact");
           }}>Contact</li>
-            <li  onClick={()=>{
+            <li  className='navBtn' onClick={()=>{
              navigate("/fag");
           }}>FAG</li>
 
@@ -60,7 +60,7 @@ export default function Navbar(props) {
          </div>
 
       </nav>
-    </div>)
+)
 
   
 }
