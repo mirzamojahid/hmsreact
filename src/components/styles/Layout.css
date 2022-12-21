@@ -193,15 +193,33 @@
   }
 
   .date{
-    background-color: white;
     box-shadow:rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-font-size: 20px;
-padding: 5px;
+    font-size: 20px;
+
     outline: none;
     border: none;
     border-radius: 8px;
-    width: 300px;
+    width: 290px;
     height: 50px;
+  }
+
+
+  #datein{
+    background: white url(../../images/check-in.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 93%;
+  }
+
+  #dateout{
+    background: white url(../../images/check-out.png);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 93%;
+  }
+  
+  .date::-webkit-calendar-picker-indicator{
+    opacity: 0;
   }
  
 

@@ -77,13 +77,14 @@ setSeat(datax);
   
   <div className='searchBox'>
      <div >
-<input value={checkin} className='date' type='date' onChange={(event)=>{
+
+<input value={checkin} className='date' id='datein' type='date' onChange={(event)=>{
     const userValue = event.target.value;
 setCheckin(userValue);
 }} ></input></div>
      <div>
-      
-<input  className='date' type='date'  onChange={(event)=>{
+    
+<input className='date'  id='dateout' type='date'  onChange={(event)=>{
     const userValue = event.target.value;
 setCheckout(userValue);
 }} ></input></div>
