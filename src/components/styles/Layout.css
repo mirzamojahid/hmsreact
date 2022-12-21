@@ -226,6 +226,7 @@
     top: 0;
 }
 input{
+  cursor: pointer;
 margin: 0;
 }
 .popupBody{
